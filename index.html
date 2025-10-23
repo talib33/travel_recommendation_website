@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>✈ Travel With Talib</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <!-- 🧭 Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">✈ Travel With Talib</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <!-- 🔍 Search bar -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success me-2" type="submit">Search</button>
+          <button class="btn btn-outline-danger" type="button" onclick="clearResults()">Reset</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 🌍 Main Content -->
+  <main class="text-center text-white hero">
+    <h1 class="heading">Explore<br>Dream<br>Destination</h1>
+    <p class="lead mt-3 text-shadow">Find your perfect travel spot with Talib’s recommendations!</p>
+  </main>
+
+  <!-- 🧳 Search Results -->
+  <div class="container text-center mt-4" id="results"></div>
+
+  <!-- 🦶 Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-auto fixed-footer">
+    <p class="mb-0">© 2025 Travel With Talib | All Rights Reserved</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
